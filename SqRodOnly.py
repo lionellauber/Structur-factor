@@ -35,7 +35,6 @@ def automatic_labelling(R, L):
 def setting_autosave_string(qL, Sq):
     data = []
     data = zip(qL, Sq)
-    data.replace(".", ",") #for computer using , as decimal ... remove it otherwise
     with open("autosave.csv","w") as f:
         writer = csv.writer(f, delimiter=";")
         writer.writerows(data)
