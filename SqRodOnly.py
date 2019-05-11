@@ -16,7 +16,7 @@ def Bessel(x):
     answer = ans/pi
     return answer
 
-##### Compute form factor or a rod (R, L) using 1st order Bessel integral
+##### Compute form factor of a rod (R, L) using 1st order Bessel integral
 def integrand_rod(alpha,q, R, L):
     a = (2*Bessel(q*R*sin(alpha)))/(q*R*sin(alpha))
     b = sin(q*L*cos(alpha)/2)/(q*L*cos(alpha)/2)
