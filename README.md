@@ -1,5 +1,5 @@
-# Structur-factor
-Structur factor of rod for light scattering experiment
+# Structure-factor
+Structure factor of rod for light scattering experiment
 
 This very short code is to calculate rodlike structure factor to fit with light scattering experiment.
 It is purposely very simple to be easily adjustable with any code and/or to be used by fairly experienced coders.
